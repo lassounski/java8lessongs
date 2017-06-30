@@ -57,7 +57,7 @@ public class Reduction {
     @Test
     public void parallelAgeSum() {
         System.out.format("The sum of ages is %d",
-                people.parallelStream()
+                people.stream()
                         .reduce(0,
                                 (sum, person) -> {
                                     System.out.format("Accumulating %d with %s's %d years\n",
