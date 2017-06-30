@@ -1,4 +1,4 @@
-package com.daitan;
+package com.daitan.evaluator;
 
 public class QualifiedEvaluator implements Evaluator{
     @Override

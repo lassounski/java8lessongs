@@ -1,8 +1,10 @@
-package com.daitan;
+package com.daitan.exercises;
+
+import com.daitan.LineCounter;
 
 import org.junit.Test;
 
-public class LineFinderTest {
+public class LineCounterTest {
 
     private static final String searchWord = "localhost";
     private static final String searchPath = "/etc/hosts";
